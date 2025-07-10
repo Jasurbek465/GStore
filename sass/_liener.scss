@@ -1,0 +1,35 @@
+.liener-dad{
+    display: flex;
+    gap: 32px;
+}
+.liener-dad.container{
+
+}
+.liener {
+
+    background: url(../img/bc-img-1.png);
+    padding: 32px;
+    border-radius: 32px;
+    // max-width: 592px;
+
+    .info {
+        margin: 0;
+    }
+
+    .info h1 {
+        color: white;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 32px;
+        line-height: 110.00000000000001%;
+        vertical-align: bottom;
+        margin-right: 62px;
+    }
+
+    .nock {
+        background: white;
+        padding: 14px 16px;
+    }
+
+    .nock button {}
+}

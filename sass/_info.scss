@@ -1,0 +1,28 @@
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+
+    &-h1 {
+        font-family: 'SF Pro Display';
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 32px;
+        line-height: 110.00000000000001%;
+        vertical-align: middle;
+    }
+
+    &-btn {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 14px 16px;
+        background: #F1F5F9;
+        border-radius: 12px;
+        transition: all .2s linear;
+    }
+    &-btn:hover{
+        background: rgb(101, 101, 101);
+        color: white;
+    }
+}
