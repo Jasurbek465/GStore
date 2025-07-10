@@ -6,11 +6,457 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="sass/normalize.css">
     <link rel="stylesheet" href="sass/style.css">
 </head>
 
 <body>
+    <header class="header">
+        <div class="top">
+            <div class="container">
+                <div class="left-box">
+                    <ul class="list">
+                        <li class="list__item">
+                            <a class="list__link" href="#!">
+                                <img class="location" src="img/Location.svg" alt="location">
+                            </a>
+                            <span class="desc">Москва</span>
+                        </li>
+                        <li class="list__item">
+                            <a class="list__link" href="#!">
+                                <img class="bitcoin" src="img/bitcoin.svg" alt="bitcoin">
+                            </a>
+                            <span class="desc">Мы принимаем оплату в криптовалюте</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right-box">
+                    <ul class="list">
+                        <li class="list__item">
+                            <a class="list__link" href="#!">
+                                <img class="usdt" src="img/T.svg" alt="usdt">
+                            </a>
+                            <span class="desc">1 USDT = 91,87 ₽</span>
+                        </li>
+                        <li class="list__item">
+                            <a class="list__link" href="#!">
+                                <img class="telegram" src="img/icons/telegram.svg" alt="telegram">
+                            </a>
+                            <span class="desc">Поддержка</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="container">
+                <div class="left-box">
+                    <div class="logo-box">
+                        <a href="#!">
+                            <img src="img/icons/logo.svg" alt="company logo">
+                        </a>
+                    </div>
+                    <div class="search-menu">
+                        <div class="catalog">
+                            <span class="name">Каталог</span>
+                            <img src="img/icons/menu.svg" alt="menu">
+                        </div>
+                        <div class="search-box">
+                            <input class="search" type="text" placeholder="Найти">
+                            <button class="search-btn">
+                                <img src="img/icons/search.svg" alt="search">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-box">
+                    <ul class="list">
+                        <li class="list__item">
+                            <a class="list__link" href="#!">
+                                <img src="img/icons/flash.svg" alt="charge">
+                            </a>
+                        </li>
+                        <li class="list__item">
+                            <a class="list__link" href="#!">
+                                <img src="img/icons/furgon.svg" alt="charge">
+                            </a>
+                        </li>
+                        <li class="list__item">
+                            <a class="list__link" href="#!">
+                                <img src="img/icons/flash.svg" alt="charge">
+                            </a>
+                        </li>
+                        <li class="list__item">
+                            <a class="list__link" href="#!">
+                                <img src="img/icons/furgon.svg" alt="charge">
+                            </a>
+
+                        </li>
+                        <li class="list__item">
+                            <a class="list__link" href="#!">
+                                <img src="img/icons/flash.svg" alt="charge">
+                            </a>
+                        </li>
+                        <li class="list__item">
+                            <a class="list__link" href="#!">
+                                <img src="img/icons/furgon.svg" alt="charge">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="nav-section">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a class="nav__link" href="#!">
+                            <img class="nav__phone" src="img/icons/prod-img-1.svg" alt="phone">
+                            Смартфоны
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#!">
+                            <img class="nav__laptop" src="img/icons/laptop.svg" alt="laptops">
+                            Ноутбуки
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#!">
+                            <img class="nav__tablet" src="img/icons/tablet.svg" alt="tablets">
+                            Планшеты
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#!">
+                            <img class="nav__styler" src="img/icons/fen.svg" alt="styler">
+                            Стайлеры
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#!">
+                            <img class="nav__console" src="img/icons/consoles.svg" alt="consoles">
+                            Приставки
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#!">
+                            <img class="nav__acsessory" src="img/icons/acsessories.svg" alt="acsessory">
+                            Акссесуары
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+
+    <section class="intro">
+        <div class="top">
+            <div class="container">
+                <div class="left-box">
+                    <div class="swiper intro-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="content-box">
+                                    <span class="bargain">Cкидки дo 20%</span>
+                                    <h1 class="title">
+                                        Раскрываем новые горизонты
+                                    </h1>
+                                    <p class="desc">
+                                        Выгода до десяти тысяч рублей
+                                    </p>
+                                    <button class="choose-btn">Выбрать подарок</button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="content-box">
+                                    <span class="bargain">Cкидки дo 20%</span>
+                                    <h1 class="title">
+                                        Раскрываем новые горизонты
+                                    </h1>
+                                    <p class="desc">
+                                        Выгода до десяти тысяч рублей
+                                    </p>
+                                    <button class="choose-btn">Выбрать подарок</button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="content-box">
+                                    <span class="bargain">Cкидки дo 20%</span>
+                                    <h1 class="title">
+                                        Раскрываем новые горизонты
+                                    </h1>
+                                    <p class="desc">
+                                        Выгода до десяти тысяч рублей
+                                    </p>
+                                    <button class="choose-btn">Выбрать подарок</button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="content-box">
+                                    <span class="bargain">Cкидки дo 20%</span>
+                                    <h1 class="title">
+                                        Раскрываем новые горизонты
+                                    </h1>
+                                    <p class="desc">
+                                        Выгода до десяти тысяч рублей
+                                    </p>
+                                    <button class="choose-btn">Выбрать подарок</button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="content-box">
+                                    <span class="bargain">Cкидки дo 20%</span>
+                                    <h1 class="title">
+                                        Раскрываем новые горизонты
+                                    </h1>
+                                    <p class="desc">
+                                        Выгода до десяти тысяч рублей
+                                    </p>
+                                    <button class="choose-btn">Выбрать подарок</button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="content-box">
+                                    <span class="bargain">Cкидки дo 20%</span>
+                                    <h1 class="title">
+                                        Раскрываем новые горизонты
+                                    </h1>
+                                    <p class="desc">
+                                        Выгода до десяти тысяч рублей
+                                    </p>
+                                    <button class="choose-btn">Выбрать подарок</button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="content-box">
+                                    <span class="bargain">Cкидки дo 20%</span>
+                                    <h1 class="title">
+                                        Раскрываем новые горизонты
+                                    </h1>
+                                    <p class="desc">
+                                        Выгода до десяти тысяч рублей
+                                    </p>
+                                    <button class="choose-btn">Выбрать подарок</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="right-box">
+                    <div class="swiper intro-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="content-box">
+                                    <span class="bargain-box">
+                                        <span class="bargain">До конца акции</span>
+                                        <div class="time-box">
+                                            <div class="time">11</div>
+                                            <div class="colon">:</div>
+                                            <div class="time">09</div>
+                                            <div class="colon">:</div>
+                                            <div class="time">21</div>
+                                        </div>
+                                    </span>
+                                    <h1 class="title">
+                                        Глобальная распродажа всех смартфонов
+                                    </h1>
+                                    <div class="cart">
+                                        <img class="iphone" src="img/icons/phone.svg" alt="iphone">
+                                        <div class="cart-content">
+                                            <h3 class="name">iPhone 15 Pro 256GB Natural Titanium</h3>
+                                            <div class="sale">
+                                                <span class="pieces">Осталось</span>
+                                                <span class="amount">8 шт.</span>
+                                            </div>
+                                            <div class="price">
+                                                <div class="old">179 900 ₽</div>
+                                                <div class="new">145 900 ₽</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="content-box">
+                                    <span class="bargain-box">
+                                        <span class="bargain">До конца акции</span>
+                                        <div class="time-box">
+                                            <div class="time">11</div>
+                                            <div class="colon">:</div>
+                                            <div class="time">09</div>
+                                            <div class="colon">:</div>
+                                            <div class="time">21</div>
+                                        </div>
+                                    </span>
+                                    <h1 class="title">
+                                        Глобальная распродажа всех смартфонов
+                                    </h1>
+                                    <div class="cart">
+                                        <img class="iphone" src="img/icons/phone.svg" alt="iphone">
+                                        <div class="cart-content">
+                                            <h3 class="name">iPhone 15 Pro 256GB Natural Titanium</h3>
+                                            <div class="sale">
+                                                <span class="pieces">Осталось</span>
+                                                <span class="amount">8 шт.</span>
+                                            </div>
+                                            <div class="price">
+                                                <div class="old">179 900 ₽</div>
+                                                <div class="new">145 900 ₽</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="content-box">
+                                    <span class="bargain-box">
+                                        <span class="bargain">До конца акции</span>
+                                        <div class="time-box">
+                                            <div class="time">11</div>
+                                            <div class="colon">:</div>
+                                            <div class="time">09</div>
+                                            <div class="colon">:</div>
+                                            <div class="time">21</div>
+                                        </div>
+                                    </span>
+                                    <h1 class="title">
+                                        Глобальная распродажа всех смартфонов
+                                    </h1>
+                                    <div class="cart">
+                                        <img class="iphone" src="img/icons/phone.svg" alt="iphone">
+                                        <div class="cart-content">
+                                            <h3 class="name">iPhone 15 Pro 256GB Natural Titanium</h3>
+                                            <div class="sale">
+                                                <span class="pieces">Осталось</span>
+                                                <span class="amount">8 шт.</span>
+                                            </div>
+                                            <div class="price">
+                                                <div class="old">179 900 ₽</div>
+                                                <div class="new">145 900 ₽</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="content-box">
+                                    <span class="bargain-box">
+                                        <span class="bargain">До конца акции</span>
+                                        <div class="time-box">
+                                            <div class="time">11</div>
+                                            <div class="colon">:</div>
+                                            <div class="time">09</div>
+                                            <div class="colon">:</div>
+                                            <div class="time">21</div>
+                                        </div>
+                                    </span>
+                                    <h1 class="title">
+                                        Глобальная распродажа всех смартфонов
+                                    </h1>
+                                    <div class="cart">
+                                        <img class="iphone" src="img/icons/phone.svg" alt="iphone">
+                                        <div class="cart-content">
+                                            <h3 class="name">iPhone 15 Pro 256GB Natural Titanium</h3>
+                                            <div class="sale">
+                                                <span class="pieces">Осталось</span>
+                                                <span class="amount">8 шт.</span>
+                                            </div>
+                                            <div class="price">
+                                                <div class="old">179 900 ₽</div>
+                                                <div class="new">145 900 ₽</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="content-box">
+                                    <span class="bargain-box">
+                                        <span class="bargain">До конца акции</span>
+                                        <div class="time-box">
+                                            <div class="time">11</div>
+                                            <div class="colon">:</div>
+                                            <div class="time">09</div>
+                                            <div class="colon">:</div>
+                                            <div class="time">21</div>
+                                        </div>
+                                    </span>
+                                    <h1 class="title">
+                                        Глобальная распродажа всех смартфонов
+                                    </h1>
+                                    <div class="cart">
+                                        <img class="iphone" src="img/icons/phone.svg" alt="iphone">
+                                        <div class="cart-content">
+                                            <h3 class="name">iPhone 15 Pro 256GB Natural Titanium</h3>
+                                            <div class="sale">
+                                                <span class="pieces">Осталось</span>
+                                                <span class="amount">8 шт.</span>
+                                            </div>
+                                            <div class="price">
+                                                <div class="old">179 900 ₽</div>
+                                                <div class="new">145 900 ₽</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom">
+            <div class="container">
+                <ul class="list">
+                    <li class="list__item">
+                        <img src="images/icons/dark-delivery.svg" alt="dark-delivery">
+                        <div class="info-box">
+                            <span class="desc">
+                                Молниеносная доставка
+                            </span>
+                            <span class="info"> Vse наши товары доставляют компанией СДЭК</span>
+                        </div>
+                    </li>
+                    <li class="list__item">
+                        <img src="images/icons/dark-delivery.svg" alt="dark-delivery">
+                        <div class="info-box">
+                            <span class="desc">
+                                Молниеносная доставка
+                            </span>
+                            <span class="info"> Vse наши товары доставляют компанией СДЭК</span>
+                        </div>
+                    </li>
+                    <li class="list__item">
+                        <img src="images/icons/dark-delivery.svg" alt="dark-delivery">
+                        <div class="info-box">
+                            <span class="desc">
+                                Молниеносная доставка
+                            </span>
+                            <span class="info"> Vse наши товары доставляют компанией СДЭК</span>
+                        </div>
+                    </li>
+                    <li class="list__item">
+                        <img src="images/icons/dark-delivery.svg" alt="dark-delivery">
+                        <div class="info-box">
+                            <span class="desc">
+                                Молниеносная доставка
+                            </span>
+                            <span class="info"> Vse наши товары доставляют компанией СДЭК</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
     <section class="container">
         <div class="info">
             <h1 class="info-h1">Смартфоны</h1>
@@ -188,7 +634,7 @@
 
 
 
-                <img class="product-img" src="img/product-img-2.png" alt="">
+                <img class="product-img" src="img/product-img-3.png" alt="">
                 <div class="item">
                     <p class="info-item">iPhone 15 Pro 256GB Natural <br> Titanium</p>
                     <div class="price">
@@ -225,7 +671,7 @@
 
 
 
-                <img class="product-img" src="img/product-img-2.png" alt="">
+                <img class="product-img" src="img/product-img-3.png" alt="">
                 <div class="item">
                     <p class="info-item">iPhone 15 Pro 256GB Natural <br> Titanium</p>
                     <div class="price">
@@ -262,7 +708,7 @@
 
 
 
-                <img class="product-img" src="img/product-img-2.png" alt="">
+                <img class="product-img" src="img/product-img-3.png" alt="">
                 <div class="item">
                     <p class="info-item">iPhone 15 Pro 256GB Natural <br> Titanium</p>
                     <div class="price">
@@ -299,7 +745,7 @@
 
 
 
-                <img class="product-img" src="img/product-img-2.png" alt="">
+                <img class="product-img" src="img/product-img-3.png" alt="">
                 <div class="item">
                     <p class="info-item">iPhone 15 Pro 256GB Natural <br> Titanium</p>
                     <div class="price">
@@ -351,6 +797,175 @@
             </div>
         </div>
     </section>
+
+    <section class="container">
+        <div class="info">
+            <h1 class="info-h1">Ноутбуки</h1>
+            <button class="info-btn">
+                <span>Все товары</span>
+                <img src="img/arrow-right.svg" alt="">
+            </button>
+        </div>
+
+        <div class="products">
+            <div class="product">
+                <div class="price">
+                    <p class="price-p1">Скидка 20%</p>
+                    <p class="price-p2">Подарок за отзыв</p>
+                </div>
+
+
+
+                <img class="product-img" src="img/product-img-3.png" alt="">
+                <div class="item">
+                    <p class="info-item">iPhone 15 Pro 256GB Natural <br> Titanium</p>
+                    <div class="price">
+                        <div class="new-price">
+                            <img src="img/T.svg" alt="">
+                            <span>1 560 $</span>
+                        </div>
+                        <div class="old-price">
+                            <span class="price-1">145 900 ₽</span>
+                            <span class="price-2">179 900 ₽</span>
+                        </div>
+                    </div>
+                    <div class="product-number">
+                        <span>Наличие</span>
+                        <span>8 шт.</span>
+                    </div>
+                    <div class="shopping">
+                        <button class="basket">
+                            <p>В корзину</p>
+                            <img src="img/basket.svg" alt="">
+                        </button>
+                        <button class="heart">
+                            <img src="img/heart.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="price">
+                    <p class="price-p1">Скидка 20%</p>
+                    <p class="price-p2">Подарок за отзыв</p>
+                </div>
+
+
+
+                <img class="product-img" src="img/product-img-3.png" alt="">
+                <div class="item">
+                    <p class="info-item">iPhone 15 Pro 256GB Natural <br> Titanium</p>
+                    <div class="price">
+                        <div class="new-price">
+                            <img src="img/T.svg" alt="">
+                            <span>1 560 $</span>
+                        </div>
+                        <div class="old-price">
+                            <span class="price-1">145 900 ₽</span>
+                            <span class="price-2">179 900 ₽</span>
+                        </div>
+                    </div>
+                    <div class="product-number">
+                        <span>Наличие</span>
+                        <span>8 шт.</span>
+                    </div>
+                    <div class="shopping">
+                        <button class="basket">
+                            <p>В корзину</p>
+                            <img src="img/basket.svg" alt="">
+                        </button>
+                        <button class="heart">
+                            <img src="img/heart.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="price">
+                    <p class="price-p1">Скидка 20%</p>
+                    <p class="price-p2">Подарок за отзыв</p>
+                </div>
+
+
+
+                <img class="product-img" src="img/product-img-3.png" alt="">
+                <div class="item">
+                    <p class="info-item">iPhone 15 Pro 256GB Natural <br> Titanium</p>
+                    <div class="price">
+                        <div class="new-price">
+                            <img src="img/T.svg" alt="">
+                            <span>1 560 $</span>
+                        </div>
+                        <div class="old-price">
+                            <span class="price-1">145 900 ₽</span>
+                            <span class="price-2">179 900 ₽</span>
+                        </div>
+                    </div>
+                    <div class="product-number">
+                        <span>Наличие</span>
+                        <span>8 шт.</span>
+                    </div>
+                    <div class="shopping">
+                        <button class="basket">
+                            <p>В корзину</p>
+                            <img src="img/basket.svg" alt="">
+                        </button>
+                        <button class="heart">
+                            <img src="img/heart.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="price">
+                    <p class="price-p1">Скидка 20%</p>
+                    <p class="price-p2">Подарок за отзыв</p>
+                </div>
+
+
+
+                <img class="product-img" src="img/product-img-3.png" alt="">
+                <div class="item">
+                    <p class="info-item">iPhone 15 Pro 256GB Natural <br> Titanium</p>
+                    <div class="price">
+                        <div class="new-price">
+                            <img src="img/T.svg" alt="">
+                            <span>1 560 $</span>
+                        </div>
+                        <div class="old-price">
+                            <span class="price-1">145 900 ₽</span>
+                            <span class="price-2">179 900 ₽</span>
+                        </div>
+                    </div>
+                    <div class="product-number">
+                        <span>Наличие</span>
+                        <span>8 шт.</span>
+                    </div>
+                    <div class="shopping">
+                        <button class="basket">
+                            <p>В корзину</p>
+                            <img src="img/basket.svg" alt="">
+                        </button>
+                        <button class="heart">
+                            <img src="img/heart.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- custom JS -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>

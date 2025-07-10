@@ -1,19 +1,23 @@
 .liener-dad{
     display: flex;
     gap: 32px;
+    margin-bottom: 56px;
 }
-.liener-dad.container{
 
-}
 .liener {
 
     background: url(../img/bc-img-1.png);
     padding: 32px;
     border-radius: 32px;
     // max-width: 592px;
+    width: 100%;
 
     .info {
         margin: 0;
+    }
+    .info-btn{
+        height: 44px;
+        margin-top: 60px;
     }
 
     .info h1 {
