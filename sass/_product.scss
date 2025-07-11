@@ -24,7 +24,6 @@
 
         .price p {
             font-weight: 500;
-            font-style: Medium;
             font-size: 12px;
             line-height: 120%;
             vertical-align: middle;
@@ -45,7 +44,6 @@
                 display: flex;
                 justify-content: space-between;
                 font-weight: 500;
-                font-style: Medium;
                 font-size: 14px;
                 line-height: 110.00000000000001%;
                 vertical-align: middle;
@@ -60,7 +58,6 @@
 
                 .new-price p {
                     font-weight: 500;
-                    font-style: Medium;
                     font-size: 14px;
                     line-height: 110.00000000000001%;
                     vertical-align: middle;
@@ -114,20 +111,14 @@
                         height: 16px;
                     }
                 }
-                .basket:hover{
-                    background: #F0FDFA;
-                    color: black;
-                }
+                
 
                 .heart {
                     background: #F1F5F9;
                     padding: 12px;
                     border-radius: 12px;
-                    transition: all .2s linear;
                 }
-                .heart:hover{
-                    background: rgb(202, 197, 197);
-                }
+                
             }
         }
 

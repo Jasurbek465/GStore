@@ -46,6 +46,7 @@
   padding: 15px 16px;
   border-radius: 12px;
   color: white;
+  cursor: pointer;
 }
 .header .bottom .search-box {
   display: flex;
@@ -236,7 +237,6 @@ body {
   margin-top: 31px;
   margin-bottom: 12px;
   font-weight: 500;
-  font-style: Medium;
   font-size: 40px;
   line-height: 110%;
   vertical-align: middle;
@@ -253,14 +253,14 @@ body {
 }
 .intro .left-box .choose-btn {
   padding: 14px 16px;
-  background-color: black;
+  background-color: #0F172A;
   color: #fff;
   font-weight: 500;
   border-radius: 12px;
   margin-bottom: 24px;
-  max-width: 144px;
+  width: -moz-fit-content;
+  width: fit-content;
   font-weight: 500;
-  font-style: Medium;
   font-size: 14px;
   line-height: 110%;
   vertical-align: middle;
@@ -321,7 +321,6 @@ body {
   line-height: 110%;
   color: #fff;
   font-weight: 500;
-  font-style: Medium;
   font-size: 16px;
   line-height: 110%;
 }
@@ -560,7 +559,6 @@ body {
 .info-h1 {
   font-family: "SF Pro Display";
   font-weight: 500;
-  font-style: Medium;
   font-size: 32px;
   line-height: 110%;
   vertical-align: middle;
@@ -603,7 +601,6 @@ body {
 }
 .products .product .price p {
   font-weight: 500;
-  font-style: Medium;
   font-size: 12px;
   line-height: 120%;
   vertical-align: middle;
@@ -621,7 +618,6 @@ body {
   display: flex;
   justify-content: space-between;
   font-weight: 500;
-  font-style: Medium;
   font-size: 14px;
   line-height: 110%;
   vertical-align: middle;
@@ -634,7 +630,6 @@ body {
 }
 .products .product .item .price .new-price p {
   font-weight: 500;
-  font-style: Medium;
   font-size: 14px;
   line-height: 110%;
   vertical-align: middle;
@@ -680,18 +675,10 @@ body {
   width: 16px;
   height: 16px;
 }
-.products .product .item .shopping .basket:hover {
-  background: #F0FDFA;
-  color: black;
-}
 .products .product .item .shopping .heart {
   background: #F1F5F9;
   padding: 12px;
   border-radius: 12px;
-  transition: all 0.2s linear;
-}
-.products .product .item .shopping .heart:hover {
-  background: rgb(202, 197, 197);
 }
 
 .liener-dad {
@@ -716,7 +703,6 @@ body {
 .liener .info h1 {
   color: white;
   font-weight: 500;
-  font-style: Medium;
   font-size: 32px;
   line-height: 110%;
   vertical-align: bottom;
@@ -725,4 +711,84 @@ body {
 .liener .nock {
   background: white;
   padding: 14px 16px;
+}
+
+.newsletter-section {
+  background: url(../img/bc-img-4.png);
+  width: 100%;
+  height: 100%;
+  max-width: 1220px;
+  margin-inline: auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 80px 360px;
+  border-radius: 32px;
+  margin-bottom: 40px;
+}
+.newsletter-section .newsletter-card {
+  text-align: center;
+}
+.newsletter-section .newsletter-card .newsletter-title {
+  font-style: Medium;
+  font-size: 32px;
+  line-height: 110%;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+  margin-bottom: 12px;
+}
+.newsletter-section .newsletter-card .newsletter-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  vertical-align: middle;
+}
+.newsletter-section .email-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.newsletter-section .email-form .form-group {
+  margin-bottom: 25px;
+  width: 100%;
+  max-width: 500px;
+}
+.newsletter-section .email-form .form-label {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.newsletter-section .email-form .email-field {
+  width: 192px;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s;
+  padding: 14px 16px;
+}
+.newsletter-section .email-form .email-field:focus {
+  box-shadow: 0 0 0 4px rgba(13, 148, 136, 0.1);
+  outline: none;
+}
+.newsletter-section .email-form .form-note {
+  font-size: 14px;
+  margin-top: 15px;
+  line-height: 1.5;
+  text-align: center;
+}
+.newsletter-section .email-form .submit-btn {
+  width: auto;
+  padding: 14px 16px;
+  background: #0F172A;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: all 0.3s;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
