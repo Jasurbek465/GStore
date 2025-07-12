@@ -461,6 +461,16 @@
         line-height: 110.00000000000001%;
         vertical-align: middle;
     }
+    .btns{
+        display: flex;
+        gap: 12px;
+
+        .btn{
+            background: #F1F5F9;
+            padding: 14px 18px;
+            border-radius: 14px;
+        }
+    }
 
     &-btn {
         display: flex;

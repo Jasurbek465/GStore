@@ -10,6 +10,7 @@
     color: #fff;
     padding: 80px 360px;
     border-radius: 32px;
+    margin-bottom: 56px;
 
     .newsletter-card {
         text-align: center;
@@ -61,7 +62,7 @@
             border: none;
             border-radius: 10px;
             transition: all 0.3s;
-            padding: 14px 16px;
+            padding: 15px 16px;
             margin-right: 16px;
             font-weight: 400;
             font-size: 14px;
@@ -95,9 +96,13 @@
             color: white;
             border: none;
             border-radius: 10px;
-            font-weight: 600;
-            transition: all 0.3s;
             cursor: pointer;
+            font-weight: 500;
+            font-style: Medium;
+            font-size: 14px;
+            line-height: 110.00000000000001%;
+            vertical-align: middle;
+
         }
     }
 }
