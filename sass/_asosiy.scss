@@ -36,12 +36,17 @@ button {
   cursor: pointer;
   border: none;
 }
-body{
+
+body {
   font-family: 'SF Pro Display';
   overflow-x: hidden;
+  font-weight: 300;
+  line-height: 160%;
 }
-.container{
+
+.container {
   max-width: 1216px;
   margin: 0 auto;
 }
+
 // asosiy yakunlandi

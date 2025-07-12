@@ -1,0 +1,37 @@
+@media (max-width: 700px) {
+    body{
+        overflow-y: inherit;
+    }
+    .container {
+        max-width: 100% !important;
+        margin: 0 auto;
+        padding: 16px;
+    }
+
+    .header {
+        max-width: 500px;
+
+        .top {
+            width: 540px;
+            .first,
+            .second {
+                display: none;
+            }
+        }
+    }
+
+    .bottom {
+        .right-box {
+            .list__item {
+                display: none;
+            }
+
+            .third {
+                display: block;
+            }
+        }
+    }
+    .header .bottom .search-box{
+        width: 100%;
+    }
+}

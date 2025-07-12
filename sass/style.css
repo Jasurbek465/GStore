@@ -40,6 +40,8 @@ button {
 body {
   font-family: "SF Pro Display";
   overflow-x: hidden;
+  font-weight: 300;
+  line-height: 160%;
 }
 
 .container {
@@ -947,4 +949,34 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 16px 72px;
+}
+
+@media (max-width: 700px) {
+  body {
+    overflow-y: inherit;
+  }
+  .container {
+    max-width: 100% !important;
+    margin: 0 auto;
+    padding: 16px;
+  }
+  .header {
+    max-width: 500px;
+  }
+  .header .top {
+    width: 540px;
+  }
+  .header .top .first,
+  .header .top .second {
+    display: none;
+  }
+  .bottom .right-box .list__item {
+    display: none;
+  }
+  .bottom .right-box .third {
+    display: block;
+  }
+  .header .bottom .search-box {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
