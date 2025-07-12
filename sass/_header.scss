@@ -8,7 +8,7 @@
         width: 100%;
         background: var(--colors-slate-100, #f1f5f9);
 
-        .container {
+        .top-box {
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -28,7 +28,7 @@
     }
 
     .bottom {
-        .container {
+        .top-box {
             display: flex;
             justify-content: space-between;
             align-items: end;
