@@ -2,9 +2,12 @@
     display: flex;
     gap: 32px;
     margin-bottom: 56px;
+    align-items: stretch;
+    height: unset !important;
     .product {
         padding: 24px;
         max-width: 280px;
+        height: 100%;
 
         .price {
             display: flex;

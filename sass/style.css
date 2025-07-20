@@ -63,7 +63,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1216px;
+  padding: 0 72px;
 }
 .header .top .list {
   display: flex;
@@ -78,6 +78,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: end;
+  padding: 0 72px;
 }
 .header .bottom .left-box {
   display: flex;
@@ -176,7 +177,7 @@ body {
 
 .right-box .swiper .swiper-pagination {
   position: absolute;
-  bottom: -4px !important;
+  bottom: -7px !important;
   left: 53px !important;
 }
 
@@ -592,10 +593,13 @@ body {
   display: flex;
   gap: 32px;
   margin-bottom: 56px;
+  align-items: stretch;
+  height: unset !important;
 }
 .products .product {
   padding: 24px;
   max-width: 280px;
+  height: 100%;
 }
 .products .product .price {
   display: flex;

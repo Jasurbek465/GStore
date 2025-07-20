@@ -1,0 +1,21 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch sass/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jasurbek465/GStore.git"
+  },
+  "keywords": [],
+  "author": "Jasurbek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jasurbek465/GStore/issues"
+  },
+  "homepage": "https://github.com/Jasurbek465/GStore#readme",
+  "description": ""
+}
