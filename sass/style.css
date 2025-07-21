@@ -554,6 +554,20 @@ body {
   line-height: 110%;
 }
 
+.info-btn svg {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #0F172A;
+  /* boshlang'ich rang */
+  transition: color 0.3s linear;
+}
+
+.info-btn svg:hover {
+  color: white;
+  /* hoverda oq bo'ladi */
+}
+
 .info {
   display: flex;
   justify-content: space-between;
@@ -585,8 +599,11 @@ body {
   transition: all 0.2s linear;
 }
 .info-btn:hover {
-  background: rgb(101, 101, 101);
+  background: black;
   color: white;
+}
+.info .arrow:hover path {
+  stroke: white;
 }
 
 .products {
@@ -908,7 +925,11 @@ body {
 .gstore-footer .footer-container {
   display: flex;
   flex-direction: column;
-  padding: 32px 72px;
+  padding: 32px 72px 12px 72px;
+}
+.gstore-footer .footer-container .footer-asosiy {
+  display: flex;
+  gap: 190px;
 }
 .gstore-footer .footer-brand {
   width: -moz-fit-content;
@@ -927,8 +948,8 @@ body {
 
 .footer-sections {
   display: flex;
-  justify-content: space-between;
-  gap: 32px;
+  gap: 100px;
+  margin-top: 22px;
 }
 .footer-sections .footer-title {
   font-weight: 500;
@@ -947,7 +968,7 @@ body {
 }
 
 .footer-bottom {
-  margin-top: 40px;
+  margin-top: 20px;
   padding-top: 20px;
   border-top: 1px solid #334155;
   display: flex;

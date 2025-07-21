@@ -449,6 +449,20 @@
     }
 }
 
+.info-btn svg {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #0F172A;
+    /* boshlang'ich rang */
+    transition: color 0.3s linear;
+}
+
+.info-btn svg:hover {
+    color: white;
+    /* hoverda oq bo'ladi */
+}
+
 .info {
     display: flex;
     justify-content: space-between;
@@ -461,11 +475,12 @@
         line-height: 110.00000000000001%;
         vertical-align: middle;
     }
-    .btns{
+
+    .btns {
         display: flex;
         gap: 12px;
 
-        .btn{
+        .btn {
             background: #F1F5F9;
             padding: 14px 18px;
             border-radius: 14px;
@@ -483,7 +498,11 @@
     }
 
     &-btn:hover {
-        background: rgb(101, 101, 101);
+        background: black;
         color: white;
+    }
+
+    .arrow:hover path {
+        stroke: white;
     }
 }

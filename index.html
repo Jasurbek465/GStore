@@ -153,7 +153,6 @@
         </div>
     </div>
 
-
     <section class="intro">
         <div class="top">
             <div class="container">
@@ -462,7 +461,11 @@
             <h1 class="info-h1">Смартфоны</h1>
             <button class="info-btn">
                 <span>Все товары</span>
-                <img src="img/arrow-right.svg" alt="">
+                <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M0.576127 0.909134C0.810441 0.67482 1.19034 0.67482 1.42465 0.909134L6.09132 5.5758C6.32564 5.81012 6.32564 6.19001 6.09132 6.42433L1.42465 11.091C1.19034 11.3253 0.810441 11.3253 0.576127 11.091C0.341812 10.8567 0.341812 10.4768 0.576127 10.2425L4.81853 6.00006L0.576127 1.75766C0.341812 1.52335 0.341812 1.14345 0.576127 0.909134Z"
+                        fill="currentColor" />
+                </svg>
             </button>
         </div>
         <div class="products">
@@ -471,9 +474,6 @@
                     <p class="price-p1">Скидка 20%</p>
                     <p class="price-p2">Подарок за отзыв</p>
                 </div>
-
-
-
                 <img class="product-img" src="img/product-img-1.png" alt="">
                 <div class="item">
                     <p class="info-item">iPhone 15 Pro 256GB Natural <br> Titanium</p>
@@ -502,7 +502,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="product">
                 <div class="price">
                     <p class="price-p1">Скидка 20%</p>
@@ -539,7 +538,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="product">
                 <div class="price">
                     <p class="price-p1">Скидка 20%</p>
@@ -576,7 +574,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="product">
                 <div class="price">
                     <p class="price-p1">Скидка 20%</p>
@@ -637,28 +634,30 @@
                 <img class="product-img" src="img/product-img-3.png" alt="">
                 <div class="item">
                     <p class="info-item">iPhone 15 Pro 256GB Natural <br> Titanium</p>
-                    <div class="price">
-                        <div class="new-price">
-                            <img src="img/T.svg" alt="">
-                            <span>1 560 $</span>
+                    <div class="product-info">
+                        <div class="price">
+                            <div class="new-price">
+                                <img src="img/T.svg" alt="">
+                                <span>1 560 $</span>
+                            </div>
+                            <div class="old-price">
+                                <span class="price-1">145 900 ₽</span>
+                                <span class="price-2">179 900 ₽</span>
+                            </div>
                         </div>
-                        <div class="old-price">
-                            <span class="price-1">145 900 ₽</span>
-                            <span class="price-2">179 900 ₽</span>
+                        <div class="product-number">
+                            <span>Наличие</span>
+                            <span>8 шт.</span>
                         </div>
-                    </div>
-                    <div class="product-number">
-                        <span>Наличие</span>
-                        <span>8 шт.</span>
-                    </div>
-                    <div class="shopping">
-                        <button class="basket">
-                            <p>В корзину</p>
-                            <img src="img/basket.svg" alt="">
-                        </button>
-                        <button class="heart">
-                            <img src="img/heart.svg" alt="">
-                        </button>
+                        <div class="shopping">
+                            <button class="basket">
+                                <p>В корзину</p>
+                                <img src="img/basket.svg" alt="">
+                            </button>
+                            <button class="heart">
+                                <img src="img/heart.svg" alt="">
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1086,66 +1085,84 @@
 
     <footer class="gstore-footer">
         <div class="footer-container">
-            <div class="footer-brand">
-                <img class="footer-logo" src="img/logo.svg" alt=""></img>
-                <p class="footer-copyright">© 2018-2024 «Gstore»</p>
+            <div class="footer-asosiy">
+                <div class="footer-brand">
+                    <img class="footer-logo" src="img/logo.svg" alt=""></img>
+                    <p class="footer-copyright">© 2018-2024 «Gstore»</p>
+                </div>
+
+                <div class="footer-sections">
+                    <div class="footer-column">
+                        <h2 class="footer-title">GStore</h2>
+                        <ul class="footer-list">
+                            <li>Смартфоны</li>
+                            <li>Ноутбуки</li>
+                            <li>Планшеты</li>
+                            <li>Стайлеры</li>
+                            <li>Приставки</li>
+                            <li>Аксессуары</li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h2 class="footer-title">Смартфоны</h2>
+                        <ul class="footer-list footer-brands">
+                            <li>Apple</li>
+                            <li>Samsung</li>
+                            <li>Xiaomi</li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h2 class="footer-title">Смартфоны</h2>
+                        <ul class="footer-list footer-brands">
+                            <li>Apple</li>
+                            <li>Samsung</li>
+                            <li>Xiaomi</li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h2 class="footer-title">Смартфоны</h2>
+                        <ul class="footer-list footer-brands">
+                            <li>Apple</li>
+                            <li>Samsung</li>
+                            <li>Xiaomi</li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h2 class="footer-title">Планшеты</h2>
+                        <ul class="footer-list footer-brands">
+                            <li>Apple</li>
+                            <li>Apple</li>
+                            <li>Dyson</li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h2 class="footer-title">Стайлеры</h2>
+                        <ul class="footer-list">
+                            <li>Xbox</li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h2 class="footer-title">Приставки</h2>
+                        <ul class="footer-list">
+                            <li>Оплата и доставка</li>
+                            <li>Медиа</li>
+                            <li>Акции</li>
+                            <li>Отзывы</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-
-            <div class="footer-sections">
-                <div class="footer-column">
-                    <h2 class="footer-title">GStore</h2>
-                    <ul class="footer-list">
-                        <li>Смартфоны</li>
-                        <li>Ноутбуки</li>
-                        <li>Планшеты</li>
-                        <li>Стайлеры</li>
-                        <li>Приставки</li>
-                        <li>Аксессуары</li>
-                    </ul>
-                </div>
-
-                <div class="footer-column">
-                    <h2 class="footer-title">Смартфоны</h2>
-                    <ul class="footer-list footer-brands">
-                        <li>Apple</li>
-                        <li>Samsung</li>
-                        <li>Xiaomi</li>
-                    </ul>
-                </div>
-
-                <div class="footer-column">
-                    <h2 class="footer-title">Планшеты</h2>
-                    <ul class="footer-list footer-brands">
-                        <li>Apple</li>
-                        <li>Apple</li>
-                        <li>Dyson</li>
-                    </ul>
-                </div>
-
-                <div class="footer-column">
-                    <h2 class="footer-title">Стайлеры</h2>
-                    <ul class="footer-list">
-                        <li>Xbox</li>
-                    </ul>
-                </div>
-
-                <div class="footer-column">
-                    <h2 class="footer-title">Приставки</h2>
-                    <ul class="footer-list">
-                        <li>Оплата и доставка</li>
-                        <li>Медиа</li>
-                        <li>Акции</li>
-                        <li>Отзывы</li>
-                    </ul>
-                </div>
-            </div>
-
-            
         </div>
         <div class="footer-bottom">
-                <p>Политика обработки персональных данных</p>
-                <p>Возникли сложности? Пишите в бот — @gstore_help</p>
-            </div>
+            <p>Политика обработки персональных данных</p>
+            <p>Возникли сложности? Пишите в бот — @gstore_help</p>
+        </div>
     </footer>
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
