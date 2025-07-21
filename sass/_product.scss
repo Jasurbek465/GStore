@@ -3,7 +3,11 @@
     flex-direction: column;
     justify-content: space-between;
 }
-
+.product-img{
+    max-width: 232px;
+    max-height: 262px;
+    margin: 0 auto;
+}
 .item {
     flex-grow: 1;
     display: flex;

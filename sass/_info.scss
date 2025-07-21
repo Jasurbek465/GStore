@@ -65,7 +65,7 @@
     }
 
     .left-box {
-        max-width: 799px;
+        width: 799px;
         background-image: url("../img/bc-img-3.png");
         background-position: center;
         background-size: cover;
@@ -143,8 +143,7 @@
                 #f37335 100%)
             /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
         ;
-        max-width: 384px;
-        max-height: 375px;
+        width: 384px;
         border-radius: 32px;
         justify-content: space-between;
         opacity: 1;
@@ -225,7 +224,6 @@
 
     .iphone {
         max-width: 104px;
-        max-height: 128px;
         background-color: #fff;
         padding: 19px 12px;
         border-radius: 16px;
@@ -326,7 +324,6 @@
         .phone-box {
             img {
                 max-width: 232px;
-                max-height: 262px;
                 opacity: 1;
             }
         }
