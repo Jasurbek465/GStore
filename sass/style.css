@@ -998,7 +998,6 @@ body {
   display: flex;
   gap: 70px;
   margin-top: 22px;
-  flex-wrap: wrap;
 }
 .footer-sections .footer-title {
   font-weight: 500;
@@ -1045,6 +1044,9 @@ body {
   .intro .container {
     flex-direction: column;
     gap: 20px;
+  }
+  .footer-section {
+    flex-wrap: wrap;
   }
   .btn-info {
     position: absolute;
