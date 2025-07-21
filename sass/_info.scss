@@ -65,7 +65,7 @@
     }
 
     .left-box {
-        max-width: 800px;
+        max-width: 799px;
         background-image: url("../img/bc-img-3.png");
         background-position: center;
         background-size: cover;
@@ -484,6 +484,8 @@
             background: #F1F5F9;
             padding: 14px 18px;
             border-radius: 14px;
+            width: 47px;
+            height: 47px ;
         }
     }
 
@@ -497,12 +499,12 @@
         transition: all .2s linear;
     }
 
-    &-btn:hover {
-        background: black;
-        color: white;
-    }
+    // &-btn:hover {
+    //     background: black;
+    //     color: white;
+    // }
 
-    .arrow:hover path {
-        stroke: white;
-    }
+    // .arrow:hover path {
+    //     stroke: white;
+    // }
 }
