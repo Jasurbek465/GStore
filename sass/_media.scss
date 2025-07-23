@@ -1,11 +1,15 @@
-.btn-info{
+.btn-info {
     position: absolute;
     top: 0;
-    right: 1217pxl;
+    right: 1217px;
 }
+
 .products {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+#swiper-wrapper-9c3adff0cdd95a71{
+    overflow-x: hidden;
 }
 
 @media (max-width: 1280px) {
@@ -19,7 +23,8 @@
         flex-direction: column;
         gap: 20px;
     }
-    .footer-section{
+
+    .footer-section {
         flex-wrap: wrap;
     }
 
@@ -53,8 +58,281 @@
     .liener .info-btn {
         margin: 0;
     }
-    .gstore-footer .footer-container .footer-asosiy{
+
+    .gstore-footer .footer-container .footer-asosiy {
         flex-direction: column;
+    }
+
+    .header .top .top-box {
+        padding: 0;
+        justify-content: space-around;
+    }
+
+    .header .right-box .list {
+        gap: 0;
+        margin-right: auto;
+    }
+
+    .nav__list {
+        gap: 4px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 110.00000000000001%;
+        vertical-align: middle;
+
+    }
+
+    .intro .left-box {
+        padding: 16px;
+    }
+
+    .intro .left-box .bargain {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 110.00000000000001%;
+        vertical-align: middle;
+        width: fit-content;
+
+    }
+
+    .intro .left-box .title {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 110.00000000000001%;
+        vertical-align: middle;
+
+    }
+
+    .intro .left-box .desc {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 140%;
+        vertical-align: middle;
+
+    }
+
+    .intro .left-box .choose-btn {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 110.00000000000001%;
+        vertical-align: middle;
+
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        position: absolute;
+        bottom: -8px !important;
+        left: 0 !important;
+    }
+
+    .intro .bargain-box {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 110.00000000000001%;
+        vertical-align: middle;
+
+    }
+
+    .intro .title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 110.00000000000001%;
+        vertical-align: middle;
+
+    }
+
+    .intro .cart .name {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 110.00000000000001%;
+        vertical-align: middle;
+
+    }
+
+    .intro .cart .sale {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 110.00000000000001%;
+        vertical-align: middle;
+
+    }
+
+    .intro .cart .price {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 110.00000000000001%;
+        vertical-align: middle;
+
+    }
+
+    .nav {
+        margin-top: 0;
+    }
+
+    .intro {
+        margin-top: -45px;
+    }
+
+    .intro .bottom .list {
+        gap: 8px;
+    }
+
+    .intro .container {
+        gap: 30px;
+    }
+
+    .intro .bottom .list {
+        margin-top: -55px;
+    }
+
+    .desc {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 110.00000000000001%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .intro .bottom .info {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 130%;
+        vertical-align: middle;
+    }
+
+    .intro .bottom .info-box {
+        gap: 6px;
+    }
+
+    .list__item img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .info {
+        margin-top: -60px;
+    }
+
+    .info-h1 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 110.00000000000001%;
+        vertical-align: middle;
+
+    }
+
+    .info-btn {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 110.00000000000001%;
+        background: none;
+        padding: 0;
+    }
+
+    .products .product {
+        padding: 0;
+        max-width: 164px;
+
+    }
+
+    .product-img {
+        width: 150px;
+        height: 175px;
+    }
+
+    .products .product .item .info-item {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 110.00000000000001%;
+        vertical-align: middle;
+
+    }
+
+    .products .product .item .price .new-price {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 110.00000000000001%;
+        vertical-align: middle;
+
+    }
+
+    .products .product .item .price .old-price {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 110.00000000000001%;
+        text-align: right;
+        vertical-align: middle;
+
+    }
+
+    .products .product .item .product-number {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 110.00000000000001%;
+        vertical-align: middle;
+
+    }
+
+    .products .product .item .shopping .basket {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 110.00000000000001%;
+        vertical-align: middle;
+        gap: 31px;
+        padding: 8px 12px;
+    }
+
+    .products .product .item .shopping .heart {
+        padding: 9px;
+        transition: all .2s linear;
+        width: 32px;
+        height: 32px;
+
+    }
+    .products .product .item .shopping .heart:hover {
+        background: black;
+    }
+    .shopping .heart:hover path{
+        fill: white;
+    } 
+
+    .item .shopping .heart svg {
+        width: 14px;
+        height: 14px;
+        opacity: 1;
+    }
+
+    .products .product .price .price-p1 {
+        font-weight: 500;
+        font-size: 10px;
+        vertical-align: middle;
+        padding: 4px 8px;
+    }
+
+    .products .product .price .price-p2 {
+        display: none;
+    }
+
+    .info-box .info {
+        flex-wrap: wrap;
+    }
+
+    .intro .bottom .list,
+    .nav__list {
+        scrollbar-width: none;
+        overflow: auto;
+    }
+
+    .newsletter-section,
+    .footer-sections,
+    .header,
+    #swiper-wrapper-2105e4010937e99d85,
+    .btn-info {
+        display: none;
     }
 }
 
@@ -87,7 +365,7 @@
         max-width: 500px;
 
         .top {
-            width: 540px;
+            width: 100%;
 
             .first,
             .second {
