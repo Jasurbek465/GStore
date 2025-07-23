@@ -1,9 +1,9 @@
-@use 'asosiy';
-@use 'header';
-@use 'info';
-@use 'product';
-@use 'liener';
-@use 'subscription';
-@use 'review';
-@use 'footer';
+@use 'base/asosiy';
+@use 'layout/header';
+@use 'components/info';
+@use 'components/product';
+@use 'pages/liener';
+@use 'components/subscription';
+@use 'home/review';
+@use 'layout/footer';
 @use 'media';

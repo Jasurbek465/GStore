@@ -17,5 +17,8 @@
     "url": "https://github.com/Jasurbek465/GStore/issues"
   },
   "homepage": "https://github.com/Jasurbek465/GStore#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "sass": "^1.89.2"
+  }
 }
