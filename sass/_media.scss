@@ -4,11 +4,12 @@
     right: 1217px;
 }
 
-.products {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-}
-#swiper-wrapper-9c3adff0cdd95a71{
+// .products {
+//     display: grid;
+//     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+// }
+
+#swiper-wrapper-9c3adff0cdd95a71 {
     overflow-x: hidden;
 }
 
@@ -291,14 +292,19 @@
         transition: all .2s linear;
         width: 32px;
         height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
     }
+
     .products .product .item .shopping .heart:hover {
         background: black;
     }
-    .shopping .heart:hover path{
+
+    .shopping .heart:hover path {
         fill: white;
-    } 
+    }
 
     .item .shopping .heart svg {
         width: 14px;

@@ -421,6 +421,7 @@
 .products .product .item .shopping .basket:hover {
     background: #F1F5F9;
     color: black;
+    border: black 1px solid;
 }
 
 .products .product .item .shopping .basket:hover path {
@@ -548,12 +549,4 @@
         transition: all .2s linear;
     }
 
-    // &-btn:hover {
-    //     background: black;
-    //     color: white;
-    // }
-
-    // .arrow:hover path {
-    //     stroke: white;
-    // }
 }

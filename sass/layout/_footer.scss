@@ -3,6 +3,8 @@
     font-family: Arial, sans-serif;
     color: #64748B;
     position: relative;
+    max-width: 1500px;
+    margin: 0 auto;
 
     .footer-container {
         display: flex;
@@ -64,4 +66,8 @@
     display: flex;
     justify-content: space-between;
     padding: 16px 72px;
+}
+.footer-bottom a{
+    cursor: pointer;
+    color: #64748B;
 }
